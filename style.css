@@ -432,8 +432,14 @@ body {
 /* for mobile home background */
 @media screen and (max-width:500px) {
     .background {
-        margin-top: 60px;
+        margin-top: 59px;
         
+        
+        
+    }
+     .img-fluid{
+        max-width: 100%;
+        /* background: url(images/mobilerakesh.png); */
     }
 
 
@@ -456,6 +462,7 @@ body {
 
     #about-section .aboutimage {
         margin-left: 10px;
+        
     }
 
     #about-section .btn:hover {

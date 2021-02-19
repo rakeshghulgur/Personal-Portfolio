@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Poppins&display=swap');
-body{
+
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Lato', sans-serif;
+    ;
 }
 
-.offset::before{
+.offset::before {
     display: block;
     content: "";
     height: 6rem;
@@ -15,17 +17,17 @@ body{
 
 
 /* navbar starts */
-.navbar{
+.navbar {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2rem;
-    background: rgba(0,0,0,0.6) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
     padding: 10px 0;
 
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
     color: #fff;
     padding: 20px;
 
@@ -33,12 +35,12 @@ body{
 
 
 .navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #1ebba3;
 
 }
 
-#home{
+#home {
     position: relative;
 }
 
@@ -46,18 +48,19 @@ body{
 
 /* section */
 /* image */
-.img-fluid{
-    filter:opacity(90%);
+.img-fluid {
+    filter: opacity(90%);
     filter: grayscale(10%);
     width: 100%;
-    height: 50%;   
-    
-    
+    height: 50%;
+
+
 }
+
 /* image ends */
 
 
-.heading-content{
+.heading-content {
     position: absolute;
     top: 40%;
     width: 100%;
@@ -66,27 +69,27 @@ body{
 }
 
 
-.heading-content h5{
+.heading-content h5 {
     font-size: 3em;
     font-weight: 800;
-    color:#fff;
+    color: #fff;
     font-family: monospace;
     /* text-shadow: 6px 2px 4px #000; */
     text-shadow: 0 0 3px #fdfafa, 0 0 5px #010113;
-    
+
 }
 
-.heading-content h1{
+.heading-content h1 {
     font-size: 5em;
     font-weight: 1000;
-    color:#fff;
-    font-family:'Montserrat', sans-serif;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
     /* text-shadow: 6px 6px 8px #000; */
     text-shadow: 0 0 3px #fdfafa, 0 0 5px #010113;
-    
+
 }
 
-.heading-content p{
+.heading-content p {
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 800;
@@ -94,7 +97,7 @@ body{
     word-spacing: 5px;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px #000;
-   
+
 
 }
 
@@ -104,13 +107,13 @@ body{
 
 
 
-.btn{
+.btn {
     word-spacing: 2px;
 }
 
 
-#about-section  .btn{
-    border:2px solid transparent  ;
+#about-section .btn {
+    border: 2px solid transparent;
     padding: 15px 22px;
     width: 40%;
     background-color: #000;
@@ -118,22 +121,22 @@ body{
 
 }
 
-.image-fluid{
+.image-fluid {
     border-radius: 10px;
 }
 
 
-#about-section  .btn a{
- color: #fff;
- text-decoration: none;
- font-size: 1rem;
- font-weight: bold;
- text-transform: uppercase;
+#about-section .btn a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-#about-section  .btn:hover{
- border: 2px solid #1ebba3;
- cursor: pointer;
+#about-section .btn:hover {
+    border: 2px solid #1ebba3;
+    cursor: pointer;
 }
 
 /* ------------------about ends------------------ */
@@ -141,9 +144,9 @@ body{
 
 /* ------------------projects Starts------------------ */
 
-#project .button{
-    
-    border:2px solid rgb(3, 0, 0)  ;
+#project .button {
+
+    border: 2px solid rgb(3, 0, 0);
     padding: 15px 22px;
     /* background-color: #000; */
     margin-top: 10px;
@@ -156,18 +159,18 @@ body{
 }
 
 
-#project .button a{
- color: rgb(252, 249, 249);
- text-decoration: none;
- font-size: 1rem;
- font-weight: bold;
- text-transform: uppercase;
- 
+#project .button a {
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 
-#project .button:hover{
- border: 2px solid #f8a305;
- cursor: pointer;
+#project .button:hover {
+    border: 2px solid #f8a305;
+    cursor: pointer;
 }
 
 
@@ -178,7 +181,11 @@ body{
 
 
 /* ---------------------------Skills starts------------------ */
- 
+
+
+
+
+
 
 
 /* ----------------------------------------skill ends--------------- */
@@ -188,12 +195,13 @@ body{
 /* ---------------------------- hobbies starts---------------------- */
 
 
-#hobbies.container{
+#hobbies.container {
     background-color: #fff
-  
-  }
-  .hobbies-image{
+}
+
+.hobbies-image {
     align-items: center;
+
     height: 250px;
     background: url(images/hobbies1.png);
     border-radius: 8px;
@@ -201,68 +209,101 @@ body{
     /* box-shadow: 5px 10px #888888; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px;
-  }
+}
 
 
-  
-  
-  .hobbies-text {
-      text-align: center;
-      font-family: 'Benne', serif !important;
-    font-size: 3rem;
-    line-height: 1.5;
-  
-  
-  }
-  
-  
-  .h1{
+
+
+.hobbies-text {
+    text-align: center;
     font-family: 'Benne', serif !important;
-    text-shadow: 2px 2px 5px red;
-      
-  }
-  
-    
-  
-  /* -----------------Hobbies start----------------------- */
-  
-  .carousel-control-prev,.carousel-control-next{
-      border: none;
-      background-color: #fff;
-      /* opacity: 0.5; */
-      margin-top: 60px;
-      width: 90px;
-      height: 80px;
-      margin-top: 120px;
-      padding-left: 20px;
-      padding-right: 20px;
-      border-radius: 50px;
-      
-  }
+    font-size: 3rem;
+    font-weight: 500;
+    /* line-height: 1.5; */
+    max-width: 100%;
 
-
- 
-
-.carousel-control-prev-icon  
-{
-    height: 50px;
-    width: 50px;
-    outline: black;
-    background-color: #000;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    
 
 }
 
-.carousel-control-next-icon
-{
+
+.h1 {
+    font-family: 'Benne', serif !important;
+    text-shadow: 2px 2px 5px red;
+
+}
+
+
+
+/* -----------------Hobbies start----------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-control-prev {
+    border: none !important;
+    /* background-color: #fff; */
+    /* opacity: 0.5; */
+    margin-top: 60px;
+    width: 90px;
+    height: 80px;
+    margin-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 80px;
+
+}
+
+.carousel-control-next {
+    border: none !important;
+    /* background-color: #fff; */
+    /* opacity: 0.5; */
+    margin-top: 60px;
+    width: 90px;
+    height: 80px;
+    margin-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 80px;
+
+}
+
+
+.carousel-control-prev-icon {
     height: 50px;
     width: 50px;
     outline: black;
     background-color: #000;
     background-size: 100%, 100%;
     border-radius: 50%;
+
+
+
+}
+
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: #000;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: none;
 
 }
 
@@ -275,28 +316,33 @@ body{
 
 
 
-#contact,.contact{
+#contact,
+.contact {
     display: inline;
     font-weight: 900;
-    
+
 
 }
 
 
-.mail, .phone1 ,.phone2{
+.mail,
+.phone1,
+.phone2 {
     font-size: x-large;
 }
 
-#contact,.fa-download{
-    color: rgba(0,0,0,0.6);
-    
-    
+#contact,
+.fa-download {
+    color: rgba(0, 0, 0, 0.6);
+
+
 
 }
 
-#contact,.btn{
+#contact,
+.btn {
     border-radius: 30px;
-    
+
 }
 
 
@@ -326,64 +372,240 @@ body{
 } */
 
 
-  
-  /* -----------  Media Query ---------*/
-  @media screen and (max-width:767px){
-      /* ---------tablets--------- */
-  .navbar{
-      letter-spacing: 0.1em;
-      padding: 10px 0;
-  }
 
-  .heading-content h5{
-    font-size: 3em;
-  
-}
+/* -----------  Media Query ---------*/
+@media screen and (max-width:767px) {
 
-.heading-content h1{
-    font-size: 3em;
-    
-}
-
-.heading-content p{
-    font-size: 0.9em;
-    
-   
-
-}
-  
+    /* ---------tablets--------- */
+    .navbar {
+        letter-spacing: 0.1em;
+        padding: 10px 0;
     }
 
+    .heading-content h5 {
+        font-size: 3em;
 
-  @media screen and (max-width:479px){
+    }
+
+    .heading-content h1 {
+        font-size: 3em;
+
+    }
+
+    .heading-content p {
+        font-size: 0.9em;
+
+
+
+    }
+
+}
+
+
+@media screen and (max-width:479px) {
+
     /* ---------Smartphones--------- */
-    .navbar{
+    .navbar {
         letter-spacing: 0.1em;
         padding: 7px 0;
     }
-  
-    .heading-content h5{
-      font-size: 2em;
-    
-  }
-  
-  .heading-content h1{
-      font-size: 2em;
-      
-  }
-  
-  .heading-content p{
-      font-size: 0.7em;
-      
-     
-  
-  }
-   
+
+    .heading-content h5 {
+        font-size: 2em;
+
+    }
+
+    .heading-content h1 {
+        font-size: 2em;
+
+    }
+
+    .heading-content p {
+        font-size: 0.7em;
+
+
+
+    }
+
+}
+
+/* for mobile home background */
+@media screen and (max-width:500px) {
+    .background {
+        margin-top: 60px;
+        
+    }
+
+
+
+}
+
+/* for mobile about page */
+@media screen and (max-width:500px) {
+    .display-4 {
+        font-size: 3rem;
+
+
+    }
+
+    #about-section .btn {
+        padding-left: 20px;
+        margin-left: 110px;
+
+    }
+
+    #about-section .aboutimage {
+        margin-left: 10px;
+    }
+
+    #about-section .btn:hover {
+        background-color: rgb(2, 173, 24);
+
+    }
+
+
+    /* for mobile project page */
+
+    @media screen and (max-width:500px) {
+
+        #project .card {
+            margin-left: 29px;
+
+
+        }
+
+        #project .mail {
+            font-size: 10px;
+            word-spacing: 3px;
+            font-weight: bolder;
+            letter-spacing: 1px;
+            height: auto;
+
+        }
+
+        #project .button {
+            width: 60%;
+
+        }
+
+        #project .button:hover {
+            background-color: rgb(2, 173, 24);
+
+        }
+
+
+
+    }
+
+
+
+    /* for mobile Skills page */
+    @media screen and (max-width:500px) {
+        #skills .card {
+            margin-left: 40px;
+
+        }
+
+
+    }
+
+    /* for mobile hobbies page */
+    @media screen and (max-width:500px) {
+        #hobbies .hobbies-text {
+            font-size: 19px;
+            font-weight: bold;
+        }
+
+        #hobbies .hobbies-image {
+            margin-top: 80px;
+            margin-right: 50px;
+            height: 12rem;
+        }
+
+        #hobbies .carousel-control-prev {
+            height: 1rem;
+
+
+        }
+
+        #hobbies .carousel-control-next {
+            height: 1rem;
+
+        }
+    }
+
+    /* for mobile contact page */
+    @media screen and (max-width:500px) {
+
+        #contact .btn {
+            max-width: 100%;
+            max-height: 100%;
+            margin-top: 30px;
+            background-color: #000;
+
+        }
+
+        #contact .resume {
+            font-size: 20px;
+            color: #fff;
+
+        }
+
+        #contact .btn:hover {
+            background-color: rgb(2, 173, 24);
+
+        }
+
+
+    }
+
 }
 
 
-#contact .post-heading h3{
-font-size: 2em;
+
+
+
+
+/* @media screen and (max-width:767px){
+    /* smartphone for hobbies */
+
+/* .carousel-item {
+        width: 100%;
+        align-items: center;
+    }
+    
+    .hobbies-image{
+        max-width: 100%;
+        align-items: center;
+    }
+    
+    
+    }
+    
+    #contact .post-heading h3{
+    font-size: 2em;
+    
+    }
+
+@media screen and (max-width:479px){
+/* smartphone for hobbies */
+
+/* .carousel-item {
+    width: 100%;
+    align-items: center;
+}
+
+.hobbies-image{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    
+    
+} */
+
+
+#contact .post-heading h3 {
+    font-size: 2em;
 
 }
 
@@ -397,11 +619,9 @@ font-size: 2em;
 
 
 /* Footer section */
-.social-icon{
+.social-icon {
     margin: 20px 10px;
-  
-    
-  }                   
-  
+    padding-bottom: 10px;
 
 
+}

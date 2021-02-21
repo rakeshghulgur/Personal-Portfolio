@@ -118,12 +118,14 @@ body {
     width: 40%;
     background-color: #000;
     margin-top: 10px;
+    margin-left: 60px;
 
 }
 
 .image-fluid {
-    border-radius: 10px;
-    align-items: center;
+    border-radius: 20px;
+    margin-left: 130px;
+
 }
 
 
@@ -480,7 +482,7 @@ body {
 
 
     /* /////////about page for tab///////////// */
-     @media screen and (max-width:768px) {
+     /* @media screen and (max-width:768px) {
         .display-4 {
             font-size: 2rem;
     
@@ -488,7 +490,7 @@ body {
         }
     
         #about-section .btn {
-            /* padding-left: 20px; */
+            padding-left: 20px;
             margin-left: 60px;
     
         }
@@ -515,7 +517,7 @@ body {
             background-color: rgb(2, 173, 24);
     
         }
-     */
+     */ */
     
 /* ////////////////////////////////////////////////////////////////// */
 

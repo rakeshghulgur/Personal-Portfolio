@@ -128,6 +128,9 @@ body {
 
 }
 
+#about-section h2{
+    font-weight: bolder;
+}
 
 #about-section .btn a {
     color: #fff;

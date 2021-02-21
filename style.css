@@ -124,7 +124,7 @@ body {
 
 .image-fluid {
     border-radius: 20px;
-    margin-left: 130px;
+    /* margin-left: 120px; */
 
 }
 
@@ -454,6 +454,10 @@ body {
 
 
     }
+    /* .image-fluid {
+        border-radius: 20px;
+        /* margin-left: 120px; */
+    
 
     #about-section .btn {
         padding-left: 20px;
@@ -470,12 +474,18 @@ body {
     #about-section .image-fluid{
 
        max-width: 70%;
-       margin-left: 53px;
+       margin-left: 75px; 
+       /* //53 */
        border-radius: 20px;
 
     }
     #about-section h2{
-        margin-left: 70px;
+        margin-left: 100px;
+    /* 70 */
+    }
+
+    #about-section p{
+        letter-spacing: 1px;
     }
 
     #about-section .btn:hover {
@@ -485,8 +495,12 @@ body {
 
 
     /* /////////about page for tab///////////// */
-     /* @media screen and (max-width:768px) {
-        .display-4 {
+       /* @media screen and (max-width:768px) {
+
+        #about-section .image-fluid{
+            margin-right: 120px !important;
+        } */
+        /* .display-4 {
             font-size: 2rem;
     
     
@@ -520,7 +534,7 @@ body {
             background-color: rgb(2, 173, 24);
     
         }
-     */ */
+       */
     
 /* ////////////////////////////////////////////////////////////////// */
 

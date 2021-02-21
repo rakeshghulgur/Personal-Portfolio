@@ -123,6 +123,7 @@ body {
 
 .image-fluid {
     border-radius: 10px;
+    align-items: center;
 }
 
 
@@ -479,7 +480,7 @@ body {
 
 
     /* /////////about page for tab///////////// */
-    @media screen and (max-width:773px) {
+     @media screen and (max-width:768px) {
         .display-4 {
             font-size: 2rem;
     
@@ -487,32 +488,34 @@ body {
         }
     
         #about-section .btn {
-            padding-left: 20px;
-            margin-left: 110px;
+            /* padding-left: 20px; */
+            margin-left: 60px;
     
         }
     
         #about-section .aboutimage {
-            margin-left: 10px;
+            margin-left: 120px;
             
         }
     
         #about-section .image-fluid{
     
            max-width: 70%;
-           margin-left: 70px;
+           margin-left: 125px;
            border-radius: 20px;
     
         }
         #about-section h2{
-            margin-left: 100px;
+            margin-left: 30px;
+            font-weight: bold;
         }
-    
+
+       
         #about-section .btn:hover {
             background-color: rgb(2, 173, 24);
     
         }
-    
+     */
     
 /* ////////////////////////////////////////////////////////////////// */
 
